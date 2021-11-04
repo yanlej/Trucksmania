@@ -1,0 +1,48 @@
+<h2>Formulaire d'inscription Food Truck's Pro</h2>
+
+<form [formGroup] = "signupProForm" (ngSubmit) = "signupPro()" novalidate>
+
+  <div class=" col-md-9 offset-md-2 container">
+
+    <div class="row">
+
+      <mat-form-field class="form-group col-md-5 offset-md-1">
+        <mat-label for="nomFood">Nom du Food</mat-label>
+        <input matInput type="inputFood" formControlName="nomFood" class="form-control" id="nomFood">
+      </mat-form-field>
+
+      <mat-form-field class="form-group col-md-5">
+        <mat-label for="theme">Thème</mat-label>
+        <input matInput type="inputTheme" formControlName="theme" class="form-control" id="theme">
+      </mat-form-field>
+
+    </div>
+
+    <div class="row">
+
+      <mat-form-field class="form-group col-md-5 offset-md-1">
+        <mat-label for="descFood">Description du food</mat-label>
+        <input matInput type="text" formControlName="descFood" class="form-control" id="descFood" placeholder="Min. 20 caractères">
+      </mat-form-field>
+
+      <mat-form-field class="form-group col-md-5">
+        <mat-label for="image">Photo du food</mat-label>
+        <input matInput type="text" formControlName="image" class="form-control" id="image">
+      </mat-form-field>
+
+    </div>
+
+    <div class="row">
+
+      <div class="form-submit col-md-8 offset-md-8">
+        <button type="submit" class="btn btn-danger" [disabled] = "!signupProForm.valid">Créez mon Espace Food</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</form>
+  
+
+

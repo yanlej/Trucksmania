@@ -1,0 +1,25 @@
+.container {
+    border: rgb(212, 35, 35) solid 3px;
+    margin-top: 20px;
+    background-color: rgb(240, 209, 219);
+    
+}
+h2 {
+ border: rgb(36, 138, 36) solid 3px ;
+ text-align: center;
+ margin-top: 40px;
+ width: 600px;
+ margin-left: 500px;
+
+}
+button {
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+h4 {
+    margin-top: 10px;
+}

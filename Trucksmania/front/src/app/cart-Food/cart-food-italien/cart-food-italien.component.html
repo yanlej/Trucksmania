@@ -1,0 +1,39 @@
+
+<article>
+
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+<h2>Italian Sub's</h2>
+</div>
+
+<div class="row">
+    <div class="info col-md-5 offset-md-1">
+        <img class="card" src="../assets/truck-italien.jpeg" alt="">
+    </div>
+    <div class="text col-md-5">
+        <p>Description via bdd,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, a facere ut enim iure sint hic eveniet natus animi amet expedita sequi debitis et vitae quod, sapiente sed, voluptates alias.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div *ngFor="let carte of cartes" class="carte col-md-2">
+        <img class="card-img-top" src="{{carte.image_plat}}" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{carte.nom_plat}}</h5>
+          <p class="card-text">{{carte.description}}</p>
+          <p class="card-text">{{carte.prix_plat}} €</p>
+          <a href="#" class="choix btn btn-danger" >Ajoutez au<br>panier</a>
+        </div>
+      
+    </div>
+  
+</div>
+</div>
+</div>
+</article>
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+<form [formGroup] = "loginForm" (ngSubmit) = "login()" novalidate>
+
+    <div class="container-fluid">
+
+        <div class=" col-md-6 offset-md-4 container">
+
+            <div class="row">
+
+                <h2 class=" col-md-6 offset-md-3">Connexion</h2>
+
+                    <mat-form-field class="col-md-8 offset-md-2 form-group">
+
+                        <mat-label for="email">Email</mat-label>
+                        <input matInput formControlName="email" type="email" class="form-control" placeholder="Email">
+
+                    </mat-form-field>
+            </div>
+
+            <div class="row">
+
+                <mat-form-field class="col-md-8 offset-md-2 form-group">
+
+                    <mat-label for="password">Password</mat-label>
+                    <input matInput formControlName="password" type="password" class="form-control" placeholder="Password">
+
+                </mat-form-field>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 offset-md-4">
+
+                    <button type="submit" class="btn btn-danger" [disabled] = "!loginForm.valid">Connexion</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+

@@ -1,0 +1,30 @@
+<article>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-6 offset-md-3">
+
+        <h2 *ngIf="food">Food Truck's {{food.theme}}</h2>
+        
+      </div>
+
+        <div class="row">
+
+          <div *ngFor="let foodtruck of foodtrucks" class="carte col-md-2">
+            <img class="card-img-top" src="{{foodtruck.image}}" alt="image foodtruck italien">
+              <div class="card-body">
+                <h5 class="card-title">{{foodtruck.nom_food}}</h5>
+                <p class="card-text">{{foodtruck.description_food}}</p>
+                <a routerLink="/cart-food/{{foodtruck.id_food}}" routerLinkActive="active"class="choix btn btn-danger" >Choisir ce<br>Food Truck</a>
+              </div>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+</article>
