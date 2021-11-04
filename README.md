@@ -1,4 +1,4 @@
-# Projet_interne_Trucksmania - 5 mois de formations
+# Projet_interne_Trucksmania
 
 Projet de centralisation et gestion de foodtrucks. Possibilité de commander dans les foodtrucks, de géolocaliser les foodtrucks et/ou le client ...
 
@@ -17,3 +17,5 @@ Dans le dossier Trucksmania se trouve toute la partie code.
 Je me suis concentré sur toute la partie back, tandis que ma collègue s'occupé du front. Je me suis ensuite chargé d'intégrer mon back au front.
 
 Pour pouvoir voir le résultat, je vous invite à installer Angular CLI (https://angular.io/guide/setup-local) , nodeJS (https://nodejs.org/en/) puis à installer toutes les dépendances des 2 côtés avec la commande : npm install .
+
+Septembre 2021 - 5 mois de formation
