@@ -14,4 +14,6 @@ Il y a un carnet de bord par personne qui consigne ce que l'on a fait tous les j
 
 Dans le dossier Trucksmania se trouve toute la partie code.
 
+Je me suis concentré sur toute la partie back, tandis que ma collègue s'occupé du front. Je me suis ensuite chargé d'intégrer mon back au front.
+
 Pour pouvoir voir le résultat, je vous invite à installer Angular CLI (https://angular.io/guide/setup-local) , nodeJS (https://nodejs.org/en/) puis à installer toutes les dépendances des 2 côtés avec la commande : npm install .
